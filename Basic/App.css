@@ -1,0 +1,43 @@
+/* App.css */
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.transition-duration {
+  transition: all 0.2s;
+}
+
+.fixed-bottom-center {
+  position: fixed;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1.5rem;
+}
+
+.button {
+  outline: none;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
